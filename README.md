@@ -1,2 +1,2 @@
 # goit-markup-hw-01
-My first project.
+My first project. Creating website.
