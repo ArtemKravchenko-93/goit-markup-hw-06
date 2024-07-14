@@ -73,7 +73,7 @@ color: #4d5ae5;
 .contact:focus {
   color: #404bbf;
 }
-.wrap-top {
+.wrap {
   background: #2e2f42;
 }
 .solutions {
@@ -81,9 +81,10 @@ color: #4d5ae5;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
   color: #fff;
 }
-.order {
+.push {
   font-family: "Roboto", sans-serif;
   background: #4d5ae5;
   font-weight: 500;
@@ -92,14 +93,14 @@ color: #4d5ae5;
   letter-spacing: 0.04em;
   color: #fff;
 }
-.order:hover {
+.push:hover {
   background: #404bbf;
 }
-.order:focus {
+.push:focus {
   background-color: #404BBF;
   cursor: pointer;
 }
-.order-text {
+.push-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -129,6 +130,7 @@ color: #4d5ae5;
   line-height: 1.11;
   letter-spacing: 0.02em;
 text-transform: capitalize;
+text-align: center;
   color: #2e2f42;
 }
 .team-box {
@@ -142,7 +144,7 @@ text-transform: capitalize;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.team-mate-position {
+.team-mate-work {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -156,6 +158,7 @@ text-transform: capitalize;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
   color: #2e2f42;
 }
 .app {
@@ -176,11 +179,11 @@ text-transform: capitalize;
   letter-spacing: 0.02em;
   color: #434455;
 }
-.wrap-bottom {
+.wrap-downside {
  
   background: #2e2f42;
 }
-.logo-bottom {
+.logo-downside {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
 font-size: 18px;
@@ -189,10 +192,10 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
 }
-.logo-studio-bottom {
+.logo-studio-downside {
   color: #f4f4fd;
 }
-.text-bottom {
+.text-downside {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
