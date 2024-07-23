@@ -144,6 +144,7 @@ margin-right: 76px;
 .push {
   font-family: "Roboto", sans-serif;
   background: #4d5ae5;
+  cursor: pointer;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -198,13 +199,15 @@ margin-right: 76px;
   color: #2e2f42;
   margin-bottom: 8px;
 }
+.advantage-page {
+  flex-basis: calc((100% - 72px) / 4);
+}
 .advantages-descr {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  flex-basis: calc((100% - 72px) / 4);
 }
 
 /* SECTION 3 */
