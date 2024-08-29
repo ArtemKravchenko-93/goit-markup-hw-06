@@ -256,12 +256,18 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
  .contact:hover,
 .contact:focus,
-.navigator-page:hover,
-.navigator-page:focus,
-.navigator-page.current {
+.navigator-page-mob:hover,
+.navigator-page-mob:focus,
+.navigator-page-mob.current {
     color: #404bbf;
 }
-
+.navigator-page-mob {
+  font-weight: 700;
+font-size: 36px;
+line-height: 1.11111;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
   .mobile-menu {
     position: fixed;
     top: 0;
@@ -283,7 +289,7 @@ opacity: 1;
 visibility: visible;
 pointer-events: auto;
   }
-
+  
   .mobile-menu-container {
     position: relative;
     padding-top: 72px;
@@ -941,8 +947,7 @@ text-align: center;
 
   margin: 0;
   padding: 0;
-  min-width: 288px;
-  text-align: start;
+ 
 }
 
 .footer-logo-part {
@@ -1076,9 +1081,9 @@ color: #4d5ae5;
       padding-bottom: 96px;
   }
   .footer-cont {
-      
-      min-width: 584px;
-      padding: 0 15px;
+   
+      max-width: 584px;
+      padding: 0 15px; 
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
@@ -1096,7 +1101,8 @@ color: #4d5ae5;
   }
 
   .footer-text {
-      width: 288px;
+      max-width: 264px;
+      
       text-align: start;
   }
   .footer-social {
@@ -1194,7 +1200,7 @@ color: #4d5ae5;
        justify-content: center;
 }
 }
-/* #endregion Footer */
+/* #endregion Footer  */
 
 /* Modal Window */
 
